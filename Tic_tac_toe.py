@@ -1,9 +1,10 @@
-
 def show_board():
+    
     print(' ___________')
     for i in range(3):
         print('|', board[0+i*3], '|', board[1+i*3], '|', board[2+i*3], '|')
     print(' -----------')
+
 
 def input_check(player_move):
 
