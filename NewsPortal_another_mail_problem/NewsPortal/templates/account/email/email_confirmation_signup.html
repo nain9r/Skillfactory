@@ -1,0 +1,12 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans %}
+Здравствуйте {{ user.username }}!,
+
+Благодарим за регистрацию на нашем новстном портале!
+
+Пожалуйста, активируйте свой аккаунт по ссылке ниже:
+
+{% endblocktrans %}
+{{ activate_url }}
+{% endautoescape %}
