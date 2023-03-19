@@ -168,10 +168,10 @@ ACCOUNT_EMAIL_CONFIRMATION_HTML = 'account/email/email_confirmation_signup.html'
 
 ACCOUNT_FORMS = {'signup': 'sign.models.BasicSignupForm'}
 
-EMAIL_HOST = 'smtp.mail.ru'  # адрес сервера Яндекс-почты для всех один и тот же
-EMAIL_PORT = 465  # порт smtp сервера тоже одинаковый
-EMAIL_HOST_USER = 'nain9r'  # ваше имя пользователя, например, если ваша почта user@yandex.ru, то сюда надо писать user, иными словами, это всё то что идёт до собаки
-EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # пароль от почты
+EMAIL_HOST = 'smtp.mail.ru'  
+EMAIL_PORT = 465 
+EMAIL_HOST_USER = 'nain9r'  
+EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD') 
 EMAIL_USE_SSL = True  # Яндекс и
 
 APSCHEDULER_DATETIME_FORMAT = 'N j, Y, f:s a'
