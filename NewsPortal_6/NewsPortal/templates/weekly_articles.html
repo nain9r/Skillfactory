@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block content %}
+<h2>Все статьи ваших любимых категорий за неделю:</h2>
+<ul>
+{% for category in categories %}
+        <h2 align="center">
+            <a href="{% url 'subscribe' category.pk %}"> Подписаться на категорию "{{ category.category }}"</a>
+        </h2>
+    {% endfor %}
+</ul>
+
+</html>
+{% endblock content %}
