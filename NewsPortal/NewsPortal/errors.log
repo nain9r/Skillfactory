@@ -1,0 +1,8 @@
+2023-07-19 17:36:45,241 ERROR "GET /submitData/ HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
+2023-07-19 17:36:45,856 ERROR "GET /favicon.ico HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
+2023-07-19 17:36:47,781 ERROR "GET /submitData/ HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
+2023-07-19 17:36:48,279 ERROR "GET /favicon.ico HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
+2023-07-19 17:36:50,097 ERROR "GET / HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
+2023-07-19 17:36:50,595 ERROR "GET /favicon.ico HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
+2023-07-19 17:36:53,877 ERROR "GET / HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
+2023-07-19 17:36:54,297 ERROR "GET /favicon.ico HTTP/1.1" 500 59 C:\Users\Андрей\Documents\GitHub\Skillfactory\NewsPortal\.venv\lib\site-packages\django\core\servers\basehttp.py None
